@@ -1,11 +1,15 @@
 require 'rails_helper'
 
 describe Post do
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8dd12e6e4b3d8541fb6d1ebe345d20ed0442227d
   it 'can be created' do
     post = Post.create!(title: "My title", description: "The post description")
     expect(post).to be_valid
   end
+<<<<<<< HEAD
 
   it 'has a summary' do
     post = Post.create!(title: "My title", description: "The post description")
@@ -15,3 +19,6 @@ describe Post do
 
 
 end
+=======
+end
+>>>>>>> 8dd12e6e4b3d8541fb6d1ebe345d20ed0442227d
